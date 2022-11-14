@@ -1,0 +1,63 @@
+.header-styles, .h2 {
+  color: green;
+  text-align: center;
+  margin: 1.5625rem auto 0;
+}
+
+h1 {
+  max-width: 38.4375rem;
+  border-bottom: 0.1875rem solid #9999ff;
+}
+
+.h2 {
+  padding: 1rem;
+  border: 0.0625rem solid #cc0000;
+  max-width: 15.625rem;
+}
+
+div {
+  border: 0.0625rem solid #990000;
+  margin: 0.625rem;
+}
+
+section {
+  display: grid;
+  margin: 0.3125rem 0.625rem;
+  padding: 0.625rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.blue {
+  color: #0000cc;
+  border: 0.0625rem solid green;
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+}
+
+.red {
+  color: #cc0000;
+  border: 0.0625rem solid green;
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+}
+
+.footer {
+  color: #004d00;
+  border: 0.0625rem solid blue;
+  font-size: 1.5rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  margin: 0.3125rem 1.25rem 0.9375rem;
+  padding: 0.9375rem 0.625rem;
+  display: grid;
+  grid-template-columns: 4fr;
+}
+
+.footer-article {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
